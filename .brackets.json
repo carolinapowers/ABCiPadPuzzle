@@ -1,0 +1,16 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/cpowers/ABC/platforms/ios/www/plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+        "/Users/cpowers/ABC/platforms/ios/cordova/lib/build.js",
+        "/Users/cpowers/ABC/platforms/ios/www/plugins/ionic-plugin-keyboard/www/ios/keyboard.js",
+        "/Users/cpowers/ABC/plugins/cordova-plugin-console/tests/tests.js",
+        "/Users/cpowers/ABC/platforms/ios/www/plugins/cordova-plugin-console/www/console-via-logger.js",
+        "/Users/cpowers/ABC/platforms/ios/www/plugins/cordova-plugin-statusbar/www/statusbar.js",
+        "/Users/cpowers/ABC/plugins/cordova-plugin-console/www/console-via-logger.js",
+        "/Users/cpowers/ABC/www/app/directives/draggable.directive.js",
+        "/Users/cpowers/ABC/platforms/ios/www/app/directives/draggable.directive.js",
+        "/Users/cpowers/ABC/platforms/ios/www/lib/ionic/js/ionic.bundle.min.js",
+        "/Users/cpowers/ABC/platforms/ios/www/lib/ionic/js/ionic.js",
+        "/Users/cpowers/ABC/platforms/ios/www/lib/ionic/js/ionic.min.js"
+    ]
+}
