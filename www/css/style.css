@@ -2,6 +2,13 @@
     height: 682px;
     overflow: hidden;
 }
+.col-75 {
+	max-width:80% !important;
+}
+.puzzle-body {
+	margin-left: -1em;
+}
+	
 
 
 /* Empty. Add your own CSS if you like */

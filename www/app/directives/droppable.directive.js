@@ -62,11 +62,11 @@
 
                         var collection = e.target.attributes;
 
-                        console.log(e.target.attributes);
+                        //console.log(e.target.attributes);
 
                         var targetVal = collection.target.nodeValue;
 
-                        console.log(targetVal);
+                        //console.log(targetVal);
 
                         if (htmlElement.id == targetVal) {
 

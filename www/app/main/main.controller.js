@@ -6,18 +6,25 @@
     function MainCtrl($scope) {
         var vm = this;
 
+        var myAudio = document.createElement('audio');
+        myAudio.controls = true;
+        
+    
         vm.ngTouchTest = function (element) {
             alert("alert me! " + element.id);
         }
 
         $scope.onDragComplete = function (data, evt) {
-            console.log("drag success, data:", data);
+            //console.log("drag success, data:", data);
         }
 
         $scope.onDropComplete = function (targetLetter, data, evt) {
             var vm = this;
             if (targetLetter === data.id) {
                 document.getElementById(targetLetter + "-target").appendChild(evt.element[0]);
+                myAudio.src = "../../assets/" +targetLetter+ ".mp3" ;
+                myAudio.play();
+
                 //Loop through all letters to find targetLetter
                 var letters = vm.vm.verticalLetters;
                 for (var i = 0; i < letters.length; i++) {

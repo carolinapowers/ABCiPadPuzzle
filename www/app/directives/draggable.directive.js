@@ -15,7 +15,7 @@
                     e.dataTransfer.setData('Text', this.id);
                     this.classList.add('drag');
                     return false;
-                    console.log(e);
+                    //console.log(e);
                 },
                 false
             );
