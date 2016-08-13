@@ -33,14 +33,16 @@
                         vm.vm.verticalLetters.splice(i, 1);
                     }
                 }
-                console.log('TARGET LETTER ',targetLetter);
-                console.log('DATA ' + data);
-                console.log('ELEMENT' + evt.element[0]);
               
               $scope.matched = targetLetter;
               
-              if ($scope.matched) {
-                  $scope.touched = true;
+              $scope.touched = function (target) {
+                if (target == targetLetter) {
+                    vm.wasTouched = true;
+                }
+                if (wasTouched == true) {
+                  return true;
+                }
               }
               
               
