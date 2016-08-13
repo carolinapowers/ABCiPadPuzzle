@@ -19,10 +19,10 @@
             //console.log("drag success, data:", data);
         }
 
-        $scope.onDropComplete = function (targetLetter, data, evt) {
+        $scope.onDropComplete = function (targetLetter, data, evt, matched) {
             var vm = this;
             if (targetLetter === data.id) {
-                //document.getElementById(targetLetter + "-target").appendChild(evt.element[0]);
+                document.getElementById(targetLetter + "-target").appendChild(evt.element[0]);
                 myAudio.src = "../../assets/" +targetLetter+ ".mp3" ;
                 myAudio.play();
 
@@ -33,7 +33,17 @@
                         vm.vm.verticalLetters.splice(i, 1);
                     }
                 }
-                vm.matched = true;
+                console.log('TARGET LETTER ',targetLetter);
+                console.log('DATA ' + data);
+                console.log('ELEMENT' + evt.element[0]);
+              
+              $scope.matched = targetLetter;
+              
+              if ($scope.matched) {
+                  $scope.touched = true;
+              }
+              
+              
             } else {
                 return;
             }

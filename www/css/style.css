@@ -9,6 +9,14 @@
 	margin-left: -1em;
 }
 	
+.a1 {
+  background-image: url("../assets/images/a_color.png");
+  height:100px;
+  width: 180px;
+}
 
+.hide {
+  display:none;
+}
 
 /* Empty. Add your own CSS if you like */
