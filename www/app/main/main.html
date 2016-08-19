@@ -154,7 +154,8 @@
                      class="bin" 
                      ng-drop="true" 
                      ng-drop-success="onDropComplete('k1',$data,$event)" 
-                     target="k1" ng-if="matched !== 'k1' && touched(k1) !== false">
+                     target="k1" 
+                     ng-if="matched !== 'k1' && touched(k1) !== false">
                 <img id="k1-target" 
                      src="assets/images/k_color.png" 
                      class="bin" 
@@ -162,12 +163,57 @@
                      ng-drop-success="onDropComplete('k1',$data,$event)" 
                      target="k1" 
                      ng-if="matched === 'k1' || touched(k1) == true">
-                <img id="l1-target" src="assets/images/l_pic.png" class="bin" ng-drop="true" ng-drop-success="onDropComplete('l1',$data,$event)" target="l1">
-                <img id="m1-target" src="assets/images/m_pic.png" class="bin" ng-drop="true" ng-drop-success="onDropComplete('m1',$data,$event)" target="m1">
-                <img id="n1-target" src="assets/images/n_pic.png" class="bin" ng-drop="true" ng-drop-success="onDropComplete('n1',$data,$event)" target="n1">
+                <img id="l1-target" 
+                     src="assets/images/l_pic.png" 
+                     class="bin" ng-drop="true" 
+                     ng-drop-success="onDropComplete('l1',$data,$event)" 
+                     target="l1"
+                     ng-if="matched !== 'l1' && touched(l1) !== false">
+                <img id="l1-target" 
+                     src="assets/images/l_color.png" 
+                     class="bin" ng-drop="true" 
+                     ng-drop-success="onDropComplete('l1',$data,$event)" 
+                     target="l1"
+                     ng-if="matched === 'l1' || touched(l1) == true">     
+                <img id="m1-target" 
+                     src="assets/images/m_pic.png" 
+                     class="bin" ng-drop="true" 
+                     ng-drop-success="onDropComplete('m1',$data,$event)" 
+                     target="m1"
+                     ng-if="matched !== 'm1' && touched(m1) !== false">
+                <img id="m1-target" 
+                     src="assets/images/m_color.png" 
+                     class="bin" ng-drop="true" 
+                     ng-drop-success="onDropComplete('m1',$data,$event)" 
+                     target="m1"
+                     ng-if="matched === 'm1' || touched(m1) == true">     
+                <img id="n1-target" 
+                     src="assets/images/n_pic.png" 
+                     class="bin" 
+                     ng-drop="true" 
+                     ng-drop-success="onDropComplete('n1',$data,$event)" 
+                     target="n1"
+                     ng-if="matched !== 'n1' && touched(n1) !== false">
+                <img id="n1-target" 
+                     src="assets/images/n_color.png" 
+                     class="bin" 
+                     ng-drop="true" 
+                     ng-drop-success="onDropComplete('n1',$data,$event)" 
+                     target="n1"
+                     ng-if="matched === 'n1' || touched(n1) == true">     
             </div>
             <div class="row">
-                <img id="o1-target" src="assets/images/o_pic.png" class="bin" ng-drop="true" ng-drop-success="onDropComplete('o1',$data,$event)" target="o1">
+                <img id="o1-target" 
+                     src="assets/images/o_pic.png" 
+                     class="bin" 
+                     ng-drop="true" 
+                     ng-drop-success="onDropComplete('o1',$data,$event)" 
+                     target="o1"
+                     ng-if="matched !== 'o1' && touched(o1) !== false">
+                <img id="o1-target" 
+                     src="assets/images/o_color.png" 
+                     class="bin"  
+                     ng-if="matched === 'o1' || touched(o1) == true">     
                 <img id="p1-target" src="assets/images/p_pic.png" class="bin" ng-drop="true" ng-drop-success="onDropComplete('p1',$data,$event)" target="p1">
                 <img id="q1-target" src="assets/images/q_pic.png" class="bin" ng-drop="true" ng-drop-success="onDropComplete('q1',$data,$event)" target="q1">
                 <img id="r1-target" src="assets/images/r_pic.png" class="bin" ng-drop="true" ng-drop-success="onDropComplete('r1',$data,$event)" target="r1">
